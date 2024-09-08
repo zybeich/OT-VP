@@ -1,0 +1,50 @@
+Environment:
+	Python: 3.8.18
+	PyTorch: 2.2.1+cu121
+	Torchvision: 0.17.1+cu121
+	CUDA: 12.1
+	CUDNN: 8902
+	NumPy: 1.24.3
+	PIL: 10.4.0
+Args:
+	algorithm: OTVP
+	checkpoint_freq: None
+	corruption: 0
+	data_dir: /data
+	dataset: ImageNetC
+	holdout_fraction: 0.2
+	hparams: None
+	hparams_seed: 0
+	output_dir: output
+	restore: None
+	save_model_every_checkpoint: False
+	seed: 0
+	severity: 5
+	skip_model_save: False
+	steps: 101
+	task: tta
+	test_envs: [-1]
+	train_envs: [-1]
+	trial_seed: 0
+	uda_holdout_fraction: 0
+HParams:
+	attention_dropout: 0.0
+	batch_size: 32
+	class_balanced: False
+	data_augmentation: False
+	lr: 5e-06
+	lr_classifier: 0.0005
+	nonlinear_classifier: False
+	resnet18: False
+	resnet_dropout: 0.1
+	timm: True
+	vit_base_16: True
+	weight_decay: 0.01
+Loading Corrupted data from ImageNet-C/gaussian_noise/5
+ImageNet pre-trained model restored from timm successfully
+Pre-computed source features loaded successfully
+====================START====================
+adapt_time    gaus_5_acc    step         
+124.544       61.212        100          
+=====================END=====================
+Total Time: 225.4s
