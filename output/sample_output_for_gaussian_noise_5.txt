@@ -29,7 +29,7 @@ Args:
 	uda_holdout_fraction: 0
 HParams:
 	attention_dropout: 0.0
-	batch_size: 32
+	batch_size: 64
 	class_balanced: False
 	data_augmentation: False
 	lr: 5e-06
