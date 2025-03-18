@@ -24,11 +24,13 @@ python -m domainbed.scripts.adapt --dataset ImageNetC --data_dir [path/to/ImageN
 ## Citation
 Please cite our work if you find it useful.
 ```bibtex
-@article{zhang2024ot,
-  title={OT-VP: Optimal Transport-guided Visual Prompting for Test-Time Adaptation},
-  author={Zhang, Yunbei and Mehra, Akshay and Hamm, Jihun},
-  journal={arXiv preprint arXiv:2407.09498},
-  year={2024}
+@InProceedings{Zhang_2025_WACV,
+    author    = {Zhang, Yunbei and Mehra, Akshay and Hamm, Jihun},
+    title     = {OT-VP: Optimal Transport-Guided Visual Prompting for Test-Time Adaptation},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {1122-1132}
 }
 ```
 
